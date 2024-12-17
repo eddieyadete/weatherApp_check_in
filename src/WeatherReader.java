@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class WeatherReader {
 
     public void checkFileExists(File file) throws WeatherFileNotFoundException {
-            String location = "C:\\Users\\eddie\\IdeaProjects\\WeatherAppLab\\weather1.txt";
+            String location = "C:\\Users\\eddie\\IdeaProjects\\WeatherAppLab\\weather.txt";
             File files = new File(location);
 
             if(files.exists()) {
